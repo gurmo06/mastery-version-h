@@ -1,0 +1,500 @@
+   41  gdb runner
+   42  make debug
+   43  runner -u traces/short1.rep
+   44  runner -u traces/coalescing.rep
+   45  runner -u traces/amptjp/rep
+   46  runner -u traces/amptjp.rep
+   47  runner -u traces/coalescing.rep
+   48  make debug
+   49  runner -u traces/coalescing.rep
+   50  make debug
+   51  runner -u traces/coalescing.rep
+   52  make debug
+   53  runner -u traces/coalescing.rep
+   54  runner -u traces/amptjp.rep
+   55  runner -u traces/coalescing.rep
+   56  make debug
+   57  runner -u traces/coalescing.rep
+   58  make debug
+   59  runner -u traces/coalescing.rep
+   60  make debug
+   61  runner -u traces/coalescing.rep
+   62  make debug
+   63  make debug
+   64  runner -u traces/coalescing.rep
+   65  make debug
+   66  runner -u traces/coalescing.rep
+   67  make debug
+   68  runner -u traces/coalescing.rep
+   69  make debug
+   70  runner -u traces/coalescing.rep
+   71  runner -u traces/amptjp.rep
+   72  make debug
+   73  runner -u traces/amptjp.rep
+   74  runner -u traces/coalescing.rep
+   75  make debug
+   76  runner -u traces/coalescing.rep
+   77  make debug
+   78  runner -u traces/coalescing.rep
+   79  make debug
+   80  runner -u traces/coalescing.rep
+   81  runner -u traces/amptjp.rep
+   82  runner -u traces/coalescing.rep
+   83  make debug
+   84  runner -u traces/coalescing.rep
+   85  make debug
+   86  runner -u traces/coalescing.rep
+   87  runner -u traces/amptjp/rep
+   88  runner -u traces/amptjp.rep
+   89  runner -u traces/binary.rep
+   90  make debug
+   91  runner -u traces/binary.rep
+   92  runner -u traces/expr.rep
+   93  make debug
+   94  runner -u traces/expr.rep
+   95  make debug
+   96  make debug
+   97  runner -u traces/expr.rep
+   98  gdb runnner
+   99  gdb runner
+  100  gdb runner
+  101  make clean
+  102  make debug
+  103  make debug
+  104  runner -u traces/expr.rep
+  105  make debug
+  106  runner -u traces/expr.rep
+  107  make clean
+  108  make debug
+  109  runner -u traces/expr.rep
+  110  runner -u traces/binary.rep
+  111  runner -u traces/expr.rep
+  112  make debug
+  113  runner -u traces/expr.rep
+  114  make debug
+  115  runner -u traces/expr.rep
+  116  runner -u -v -c traces/expr.rep
+  117  cd
+  118  ls -l
+  119  ls -l
+  120  touch /test
+  121  touch .gdbinit
+  122  ls -l
+  123  git clone https://github.com/CS429-SP2025/shared-repo-version-e-gurmo06
+  124  ls -l
+  125  make debug
+  126  make tests
+  127  gdb make tests
+  128  make tests
+  129  gdb main.c
+  130  gdb make
+  131  mini_ci
+  132  mini_ci basic_add.s
+  133  gdb mini_ci
+  134  b reader.c:15
+  135  gdb mini_ci
+  136  mini_ci basic_add.s
+  137  ls -l
+  138  cd testcases
+  139  ls -l
+  140  gdb mini_ci
+  141  make clean
+  142  cd ..
+  143  make clean
+  144  make debug
+  145  gdb mini_ci
+  146  ls -l
+  147  rm
+  148  rm rf
+  149  rmrf
+  150  cd ..
+  151  ls
+  152  rm -rf shared-repo-version-e-gurmo06/
+  153  ls
+  154  cd shared-repo-version-e-gurmo06/
+  155  ls -a
+  156  more .nfs0000000005c1b9ed0000045a 
+  157  rm -f .nfs0000000005c1b9ed0000045a 
+  158  cd ..
+  159  ls shared-repo-version-e-gurmo06/
+  160  pwd
+  161  git copy https://github.com/CS429-SP2025/se-lab-gurmo
+  162  git clone https://github.com/CS429-SP2025/se-lab-gurmo
+  163  chmod +x bin/se-ref-wk*
+  164  make clean
+  165  make clean
+  166  make test
+  167  make clean
+  168  make se
+  169  bin/test-he
+  170  bin/test-hw
+  171  bin/test-hw -i testcases/basics/add
+  172  bin/test-hw -i testcases/basics/add
+  173  bin/test-se -i testcases/basics/add
+  174  bin/test-csim -i testcases/basics/add
+  175  bin/se -i testcases/alu/simple/adds -v 2 -c out
+  176  bin/test-se -i testcases/alu/simple/adds -v 2 -c out
+  177  make all
+  178  make 
+  179  test-hw
+  180  bin/test-hw
+  181  make
+  182  make
+  183  bin/test-hw
+  184  bin/test-hw
+  185  make
+  186  make clean
+  187  make
+  188  bin/test-hw
+  189  make
+  190  make clean
+  191  make
+  192  make clean
+  193  make
+  194  make celan
+  195  make clean
+  196  make
+  197  make clean
+  198  make
+  199  bin/test-hw
+  200  make clean
+  201  make
+  202  bin/test-hw
+  203  make clean
+  204  make
+  205  bin/test-hw
+  206  bin/test-hw -h
+  207  bin/test-hw -v 1
+  208  make clean
+  209  make
+  210  make
+  211  make
+  212  make clean
+  213  make
+  214  make
+  215  make
+  216  make clean
+  217  make 
+  218  make clean
+  219  make
+  220  make
+  221  make
+  222  make clean
+  223  make
+  224  bin/test-hw -v 1
+  225  bin/test-hw -v 2
+  226  make clean
+  227  make
+  228  bin/test-hw -v 2
+  229  make clean
+  230  make
+  231  bin/test-hw -v 2
+  232  bin/test-hw -v 1
+  233  make clean
+  234  make
+  235  make
+  236  bin/test-hw -v 1
+  237  make clean
+  238  make
+  239  bin/test-hw -v 1
+  240  make clean
+  241  make
+  242  bin/test-hw -v 1
+  243  make clean
+  244  make 
+  245  bin/test-hw -v 1
+  246  bin/test-hw -v 2
+  247  make clean
+  248  make
+  249  bin/test-hw -v 2
+  250  make clean
+  251  make
+  252  bin/test-hw -v 2
+  253  bin/test-hw -v 1
+  254  make clean
+  255  make clean
+  256  make
+  257  bin/test-hw -v 1
+  258  bin/test-hw -v 2
+  259  make clean
+  260  make
+  261  bin/test-hw -v 2
+  262  bin/test-hw -v 1
+  263  make clean
+  264  make
+  265  bin/test-hw -v 1
+  266  make celan
+  267  make clean
+  268  make clean
+  269  make
+  270  bin/test-hw -v 1
+  271  make celan
+  272  make clean
+  273  make
+  274  bin/test-hw -v 1
+  275  bin/test-hw -v 2
+  276  make clean
+  277  make
+  278  bin/test-hw -v 2
+  279  make clean
+  280  make
+  281  bin/test-hw -v 2
+  282  make clean
+  283  make
+  284  bin/test-hw -v 2
+  285  make celan
+  286  make clean
+  287  make
+  288  bin/test-hw -v 2
+  289  make clean
+  290  make
+  291  bin/test-hw -v 2
+  292  make clean
+  293  make
+  294  bin/test-hw -v 2
+  295  make clean
+  296  make
+  297  bin/test-hw -v 2
+  298  make clean
+  299  make clean
+  300  make
+  301  bin/test-hw -v 2
+  302  make clean
+  303  make
+  304  bin/test-hw -v 2
+  305  make clean
+  306  make
+  307  bin/test-hw -v 2
+  308  bin/test-hw -v 1
+  309  make clean
+  310  make
+  311  bin/test-hw -v 1
+  312  bin/test-hw -v 2
+  313  bin/test-hw -h
+  314  bin/test-hw -v 2 -o INV_OP
+  315  make clean
+  316  make
+  317  bin/test-hw -v 2 -o INV_OP
+  318  make clean
+  319  make
+  320  bin/test-hw -v 2 -o INV_OP
+  321  make clean
+  322  make
+  323  bin/test-hw -v 2 -o INV_OP
+  324  make clean
+  325  make
+  326  bin/test-hw -v 2 -o INV_OP
+  327  bin/test-hw -v 1
+  328  bin/test-hw -v 2
+  329  make clean
+  330  make
+  331  bin/test-hw -v 2
+  332  make celan
+  333  make clean
+  334  make
+  335  bin/test-hw -v 2
+  336  make clean
+  337  make
+  338  bin/test-hw -v 2
+  339  make clean
+  340  make
+  341  bin/test-hw -v 2
+  342  make clean
+  343  make
+  344  bin/test-hw -v 2
+  345  make clean
+  346  make
+  347  make clean
+  348  make
+  349  bin/test-hw -v 2
+  350  bin/test-hw -v 1
+  351  bin/test-hw -v 2
+  352  make clean
+  353  make
+  354  bin/test-hw -v 2
+  355  make clean
+  356  make
+  357  bin/test-hw -v 2
+  358  bin/test-hw -v 1
+  359  make clean
+  360  make
+  361  bin/test-hw -v 1
+  362  bin/test-hw -v 2
+  363  make clean
+  364  make
+  365  make clean
+  366  bin/test-hw -v 2
+  367  make clean
+  368  make
+  369  bin/test-hw -v 2
+  370  make clean
+  371  make
+  372  bin/test-hw -v 2
+  373  make clean
+  374  bin/test-hw -v 2
+  375  make clean
+  376  make
+  377  bin/test-hw -v 2
+  378  make clean
+  379  make
+  380  bin/test-hw -v 2
+  381  make clean
+  382  make
+  383  bin/test-hw -v 2
+  384  make clean
+  385  make
+  386  bin/test-hw -v 2
+  387  make clean
+  388  make
+  389  bin/test-hw -v 2
+  390  make clean
+  391  make
+  392  bin/test-hw -v 2
+  393  make clean
+  394  make
+  395  bin/test-hw -v 2
+  396  make clean
+  397  make
+  398  bin/test-hw -v 2
+  399  make clean
+  400  make
+  401  bin/test-hw -v 2
+  402  make clean
+  403  make
+  404  bin/test-hw -v 2
+  405  make clean
+  406  make
+  407  bin/test-hw -v 2
+  408  make clean
+  409  make
+  410  bin/test-hw -v 2
+  411  make clean
+  412  make
+  413  bin/test-hw -v 2
+  414  make clean
+  415  make
+  416  bin/test-hw -v 2
+  417  make clean
+  418  make
+  419  bin/test-hw -v 2
+  420  make clean
+  421  make
+  422  bin/test-hw -v 2
+  423  make clean
+  424  make
+  425  bin/test-hw -v 2
+  426  make clean
+  427  make 
+  428  bin/test-hw -v 2
+  429  make clean
+  430  make
+  431  bin/test-hw -v 2
+  432  make clean
+  433  make
+  434  bin/test-hw
+  435  bin/test-hw -v
+  436  bin/test-hw -v 1
+  437  bin/test-hw -v 2
+  438  make clean
+  439  make
+  440  bin/test-hw -v 2
+  441  make clean
+  442  make
+  443  bin/test-hw -v 2
+  444  make clean
+  445  bin/test-hw -v 2
+  446  make clean
+  447  make
+  448  bin/test-hw -v 2
+  449  bin/test-hw -h
+  450  bin/test-hw -e
+  451  make clean
+  452  make
+  453  bin/test-hw -e
+  454  pwd
+  455  pwd
+  456  ls -l
+  457  cd shared-repo-version-e-gurmo06/
+  458  ls -l
+  459  cd ..
+  460  touch ~/.gdbinit
+  461  echo "set history save on" > /.gdbinit
+  462  ls -a -l
+  463  cat /.gdbinit
+  464  cat ~/.gdbinit
+  465  git clone https://github.com/gurmo06/mastery-version-c
+  466  make
+  467  mini_ci_refernce
+  468  mini_ci_reference
+  469  mini_ci_reference testcases/basic_add.s
+  470  make tests
+  471  mini_ci testcases/basic_add.s
+  472  make clean
+  473  make debug
+  474  gdb mini_ci
+  475  make clean
+  476  make debug
+  477  gdb mini_ci
+  478  make tests
+  479  make check
+  480  history > shell_logs.txt
+  481  touch gdb_logs.txt
+  482  git add .
+  483  git commit -m "Finished"
+  484  git push
+  485  make check
+  486  cd ..
+  487  rm -rf mastery-version-c/
+  488  ls -l
+  489  rm -rf shared-repo-version-e-gurmo06/
+  490  ls -l
+  491  ls -l
+  492  ls -a -l
+  493  ls
+  494  ls -l
+  495  ls -a
+  496  touch ~/.gdbinit
+  497  echo "set history save on" > ~/.gdbinit
+  498  cat ~/.gdbinit
+  499  ls -l -a
+  500  git clone https://github.com/gurmo06/mastery-version-h
+  501  make
+  502  bin/a.out
+  503  bin/a.out -h
+  504  bin/a.out -t testcases/short1.rep
+  505  bin/a.out -t testcases/short2.rep
+  506  bin/a.out -t testcases/short3.rep
+  507  make check
+  508  gdb bin/a.out
+  509  make clean
+  510  make debug
+  511  gdb bin/a.out
+  512  cat ~/.gdbinit
+  513  gdb
+  514  touch ~/.gdbinit
+  515  echo “set history save on” > ~/.gdbinit
+  516  cat ~/.gdbinit
+  517  gdb bin/a.out
+  518  make clean
+  519  make
+  520  make check
+  521  gdb bin/a.out
+  522  make clean
+  523  make debug
+  524  gdb bin/a.out
+  525  gdb bin/a.out
+  526  make clean
+  527  make debug
+  528  gdb bin/a.out
+  529  make clean
+  530  make debug
+  531  gdb bin/a.out
+  532  make debug
+  533  make celan
+  534  make clean
+  535  make debug
+  536  gdb bin/a.out
+  537  ref.out -t testcases/short2.rep
+  538  make comp
+  539  gdb
+  540  history > shell_logs.txt
